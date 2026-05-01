@@ -1,0 +1,58 @@
+## =========================
+## Visual Studio / .NET
+## =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build folders
+bin/
+obj/
+out/
+
+## =========================
+## ASP.NET Core
+## =========================
+
+
+
+# appsettings.json
+
+## =========================
+## Logs
+## =========================
+*.log
+logs/
+
+## =========================
+## Rider / JetBrains
+## =========================
+.idea/
+*.DotSettings.user
+
+## =========================
+## OS files
+## =========================
+.DS_Store
+Thumbs.db
+
+## =========================
+## EF Core Migrations cache
+## =========================
+*.db
+*.sqlite
+
+## =========================
+## Secrets
+## =========================
+secrets.json
+*.key
+*.pem
+
+## =========================
+## Redis / cache local files (if any)
+## =========================
+*.rdb
+dump.rdb
